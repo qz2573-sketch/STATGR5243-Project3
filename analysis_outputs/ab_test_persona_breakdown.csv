@@ -1,0 +1,7 @@
+"persona","variant","n","first_key_action_taken","task_completed","session_duration","num_events"
+"exploratory","A",40,0.825,0.3,4.2658,7.225
+"exploratory","B",40,0.925,0.45,4.4735,8.175
+"goal_oriented","A",35,0.8,0.5429,3.8457,8.4286
+"goal_oriented","B",35,0.9143,0.6286,3.7034,9.2857
+"hesitant","A",25,0,0,1.6344,3
+"hesitant","B",25,0.24,0.04,1.752,3.88
