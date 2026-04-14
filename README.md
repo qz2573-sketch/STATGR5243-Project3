@@ -17,6 +17,17 @@ The experiment compares two interface treatments:
 
 The backend workflow is shared across both variants. Only the presentation, onboarding, and interaction framing differ.
 
+## Public Shiny App
+
+The deployed public A/B testing app is available at:
+
+- [https://statgr5243project.shinyapps.io/abtest-launcher/](https://statgr5243project.shinyapps.io/abtest-launcher/)
+
+Debug override URLs:
+
+- [Variant A](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=A)
+- [Variant B](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=B)
+
 ## What This Experiment Includes
 
 This repository contains four connected layers:
@@ -242,12 +253,28 @@ This project now supports both simulated and real-user traffic. The existing rep
 
 The deployable public app is `app.R`. It keeps a single public entry URL and performs variant assignment inside the app at session start.
 
+### One-time account setup
+
+In an interactive R session, configure your shinyapps.io account once:
+
+```r
+rsconnect::setAccountInfo(
+  name = "<your-account-name>",
+  token = "<your-token>",
+  secret = "<your-secret>"
+)
+```
+
 ### Deploy the public A/B app
 
 ```powershell
 $env:SHINYAPPS_ACCOUNT = "<your-account-name>"
 "C:\Program Files\R\R-4.5.2\bin\Rscript.exe" deploy_shinyapps.R --app-name=abtest-launcher
 ```
+
+Current deployed URL:
+
+- [https://statgr5243project.shinyapps.io/abtest-launcher/](https://statgr5243project.shinyapps.io/abtest-launcher/)
 
 The deployed app:
 
