@@ -242,18 +242,6 @@ This project now supports both simulated and real-user traffic. The existing rep
 
 The deployable public app is `app.R`. It keeps a single public entry URL and performs variant assignment inside the app at session start.
 
-### One-time account setup
-
-In an interactive R session, configure your shinyapps.io account once:
-
-```r
-rsconnect::setAccountInfo(
-  name = "<your-account-name>",
-  token = "<your-token>",
-  secret = "<your-secret>"
-)
-```
-
 ### Deploy the public A/B app
 
 ```powershell
