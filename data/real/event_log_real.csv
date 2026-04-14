@@ -1,0 +1,4 @@
+"session_id","variant","run_label","timestamp","event_name","event_value","tab_name","data_source"
+"20260413234844-Tv7hwU8o37","A","local_smoke","2026-04-13 23:48:44","session_start","assignment_mode=random;variant=A","Guide","real_user"
+"20260413234844-Tv7hwU8o37","A","local_smoke","2026-04-13 23:48:49","landing_view","variant=A","Guide","real_user"
+"20260413234844-Tv7hwU8o37","A","local_smoke","2026-04-13 23:48:50","session_end","duration_seconds=6.15","Guide","real_user"

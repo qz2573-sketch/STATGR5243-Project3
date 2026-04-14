@@ -6,10 +6,6 @@ suppressPackageStartupMessages({
 
 Sys.setenv(SHINYTEST2_APP_DRIVER_TEST_ON_CRAN = "1")
 
-default_manifest_path <- function() {
-  file.path(getwd(), "data", "simulation_manifest.csv")
-}
-
 parse_simulation_args <- function(args) {
   config <- list(
     run_label = "full",
@@ -188,9 +184,9 @@ capture_new_session_rows <- function(log_path, previous_row_count) {
 }
 
 reset_simulation_outputs <- function(
-  log_path = default_event_log_path(),
+  log_path = default_event_log_path("simulated"),
   manifest_path = default_manifest_path(),
-  summary_path = default_session_summary_path()
+  summary_path = default_session_summary_path("simulated")
 ) {
   reset_event_log_file(log_path)
   reset_simulation_manifest(manifest_path)
@@ -198,7 +194,7 @@ reset_simulation_outputs <- function(
 }
 
 prune_event_log_to_manifest_runs <- function(
-  log_path = default_event_log_path(),
+  log_path = default_event_log_path("simulated"),
   manifest_path = default_manifest_path()
 ) {
   event_log <- utils::read.csv(log_path, stringsAsFactors = FALSE)
@@ -223,6 +219,7 @@ append_manifest_row <- function(manifest_path, session_id, variant, persona, run
     persona = persona,
     run_label = run_label,
     planned_dataset = planned_dataset,
+    data_source = "simulated",
     stringsAsFactors = FALSE
   )
   utils::write.table(
@@ -394,9 +391,10 @@ run_one_session <- function(base_url, variant, persona, run_label, log_path, man
 
 run_simulation_batch <- function(config) {
   set.seed(config$seed)
-  log_path <- default_event_log_path()
+  ensure_legacy_simulated_data_migrated()
+  log_path <- default_event_log_path("simulated")
   manifest_path <- default_manifest_path()
-  summary_path <- default_session_summary_path()
+  summary_path <- default_session_summary_path("simulated")
 
   if (isTRUE(config$reset_outputs)) {
     reset_simulation_outputs(log_path, manifest_path, summary_path)

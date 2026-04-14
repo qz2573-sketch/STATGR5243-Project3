@@ -1,0 +1,10 @@
+name: abtest-launcher
+title:
+username: statgr5243project
+account: statgr5243project
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17127378
+bundleId: 11847357
+url: https://statgr5243project.shinyapps.io/abtest-launcher/
+version: 1

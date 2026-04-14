@@ -2,15 +2,8 @@ suppressPackageStartupMessages({
   source("utils_logging.R", local = TRUE)
 })
 
-default_manifest_path <- function() {
-  file.path(getwd(), "data", "simulation_manifest.csv")
-}
-
-default_session_summary_path <- function() {
-  file.path(getwd(), "data", "session_summary.csv")
-}
-
 ensure_simulation_manifest <- function(manifest_path = default_manifest_path()) {
+  manifest_path <- manifest_path %||% default_simulation_manifest_path()
   manifest_dir <- dirname(manifest_path)
   if (!dir.exists(manifest_dir)) {
     dir.create(manifest_dir, recursive = TRUE, showWarnings = FALSE)
@@ -23,15 +16,40 @@ ensure_simulation_manifest <- function(manifest_path = default_manifest_path()) 
       persona = character(),
       run_label = character(),
       planned_dataset = character(),
+      data_source = character(),
       stringsAsFactors = FALSE
     )
     utils::write.csv(header, manifest_path, row.names = FALSE)
+  } else {
+    existing <- utils::read.csv(manifest_path, stringsAsFactors = FALSE)
+    template <- data.frame(
+      session_id = character(),
+      variant = character(),
+      persona = character(),
+      run_label = character(),
+      planned_dataset = character(),
+      data_source = character(),
+      stringsAsFactors = FALSE
+    )
+    if (nrow(existing)) {
+      missing_cols <- setdiff(names(template), names(existing))
+      for (col_name in missing_cols) {
+        existing[[col_name]] <- rep("", nrow(existing))
+      }
+      existing <- existing[, names(template), drop = FALSE]
+      blank_sources <- is.na(existing$data_source) | !nzchar(existing$data_source)
+      existing$data_source[blank_sources] <- "simulated"
+    } else {
+      existing <- template[0, , drop = FALSE]
+    }
+    utils::write.csv(existing, manifest_path, row.names = FALSE)
   }
 
   invisible(manifest_path)
 }
 
 reset_simulation_manifest <- function(manifest_path = default_manifest_path()) {
+  manifest_path <- manifest_path %||% default_simulation_manifest_path()
   manifest_dir <- dirname(manifest_path)
   if (!dir.exists(manifest_dir)) {
     dir.create(manifest_dir, recursive = TRUE, showWarnings = FALSE)
@@ -44,6 +62,7 @@ reset_simulation_manifest <- function(manifest_path = default_manifest_path()) {
       persona = character(),
       run_label = character(),
       planned_dataset = character(),
+      data_source = character(),
       stringsAsFactors = FALSE
     ),
     manifest_path,
@@ -53,53 +72,12 @@ reset_simulation_manifest <- function(manifest_path = default_manifest_path()) {
   invisible(manifest_path)
 }
 
-ensure_session_summary <- function(summary_path = default_session_summary_path()) {
-  summary_dir <- dirname(summary_path)
-  if (!dir.exists(summary_dir)) {
-    dir.create(summary_dir, recursive = TRUE, showWarnings = FALSE)
-  }
-
-  if (!file.exists(summary_path)) {
-    header <- data.frame(
-      session_id = character(),
-      variant = character(),
-      persona = character(),
-      run_label = character(),
-      first_key_action_taken = logical(),
-      task_completed = logical(),
-      session_duration = numeric(),
-      num_events = integer(),
-      stringsAsFactors = FALSE
-    )
-    utils::write.csv(header, summary_path, row.names = FALSE)
-  }
-
-  invisible(summary_path)
+default_manifest_path <- function() {
+  default_simulation_manifest_path()
 }
 
-reset_session_summary <- function(summary_path = default_session_summary_path()) {
-  summary_dir <- dirname(summary_path)
-  if (!dir.exists(summary_dir)) {
-    dir.create(summary_dir, recursive = TRUE, showWarnings = FALSE)
-  }
-
-  utils::write.csv(
-    data.frame(
-      session_id = character(),
-      variant = character(),
-      persona = character(),
-      run_label = character(),
-      first_key_action_taken = logical(),
-      task_completed = logical(),
-      session_duration = numeric(),
-      num_events = integer(),
-      stringsAsFactors = FALSE
-    ),
-    summary_path,
-    row.names = FALSE
-  )
-
-  invisible(summary_path)
+default_simulated_summary_path <- function() {
+  default_session_summary_path("simulated")
 }
 
 extract_duration_seconds <- function(event_values) {
@@ -112,13 +90,14 @@ extract_duration_seconds <- function(event_values) {
 }
 
 build_session_summary <- function(
-  log_path = default_event_log_path(),
+  log_path = default_event_log_path("simulated"),
   manifest_path = default_manifest_path(),
-  summary_path = default_session_summary_path()
+  summary_path = default_simulated_summary_path()
 ) {
+  ensure_legacy_simulated_data_migrated()
   ensure_event_log_file(log_path)
   ensure_simulation_manifest(manifest_path)
-  ensure_session_summary(summary_path)
+  ensure_session_summary_file(summary_path)
 
   event_log <- utils::read.csv(log_path, stringsAsFactors = FALSE)
   manifest <- utils::read.csv(manifest_path, stringsAsFactors = FALSE)
@@ -126,23 +105,15 @@ build_session_summary <- function(
   if (!"run_label" %in% names(event_log)) {
     event_log$run_label <- ""
   }
+  if (!"data_source" %in% names(event_log)) {
+    event_log$data_source <- "simulated"
+  }
+  if (!"data_source" %in% names(manifest)) {
+    manifest$data_source <- "simulated"
+  }
 
   if (!nrow(manifest)) {
-    utils::write.csv(
-      data.frame(
-        session_id = character(),
-        variant = character(),
-        persona = character(),
-        run_label = character(),
-        first_key_action_taken = logical(),
-        task_completed = logical(),
-        session_duration = numeric(),
-        num_events = integer(),
-        stringsAsFactors = FALSE
-      ),
-      summary_path,
-      row.names = FALSE
-    )
+    utils::write.csv(session_summary_header(), summary_path, row.names = FALSE)
     return(invisible(data.frame()))
   }
 
@@ -160,6 +131,7 @@ build_session_summary <- function(
       variant = manifest_row$variant,
       persona = manifest_row$persona,
       run_label = manifest_row$run_label,
+      data_source = "simulated",
       first_key_action_taken = any(session_rows$event_name == "first_key_action"),
       task_completed = any(session_rows$event_name == "task_completed"),
       session_duration = extract_duration_seconds(session_rows$event_value[session_rows$event_name == "session_end"]),
@@ -168,7 +140,7 @@ build_session_summary <- function(
     )
   })
 
-  summary_df <- do.call(rbind, summary_rows)
+  summary_df <- normalize_session_summary_frame(do.call(rbind, summary_rows), default_source = "simulated")
   utils::write.csv(summary_df, summary_path, row.names = FALSE)
   invisible(summary_df)
 }

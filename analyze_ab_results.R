@@ -1,24 +1,20 @@
 suppressPackageStartupMessages({
   library(ggplot2)
   library(dplyr)
+  source("utils_logging.R", local = TRUE)
+  source("merge_analysis_data.R", local = TRUE)
 })
 
-preferred_dataset <- file.path("data", "session_summary(3).csv")
-fallback_dataset <- file.path("data", "session_summary.csv")
 output_dir <- file.path("analysis_outputs")
 
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 }
 
-dataset_path <- if (file.exists(preferred_dataset)) preferred_dataset else fallback_dataset
-
-if (!file.exists(dataset_path)) {
-  stop("No session summary dataset was found.")
-}
-
-session_summary <- utils::read.csv(dataset_path, stringsAsFactors = FALSE)
+dataset_path <- default_combined_session_summary_path()
+session_summary <- build_combined_session_summary(output_path = dataset_path)
 full_data <- session_summary %>%
+  filter(data_source == "simulated") %>%
   filter(run_label == "full")
 
 if (!nrow(full_data)) {

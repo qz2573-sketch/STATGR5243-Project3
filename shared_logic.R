@@ -572,12 +572,12 @@ filter_dataset <- function(df, filter_column, filter_range = NULL, filter_levels
 }
 
 build_eda_plot <- function(df, plot_type, plot_x, plot_y, plot_color) {
-  validate(need(nrow(df) > 0, "No rows available for plotting after the current filters."))
+  shiny::validate(shiny::need(nrow(df) > 0, "No rows available for plotting after the current filters."))
   use_color <- !is.null(plot_color) && plot_color != "None" && plot_color %in% names(df)
 
   if (plot_type == "Histogram") {
-    validate(need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
-    validate(need(is.numeric(df[[plot_x]]), "Histogram requires a numeric X variable."))
+    shiny::validate(shiny::need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
+    shiny::validate(shiny::need(is.numeric(df[[plot_x]]), "Histogram requires a numeric X variable."))
     return(
       ggplot(df, aes(x = .data[[plot_x]])) +
         geom_histogram(fill = "#1b4965", color = "white", bins = 20) +
@@ -586,9 +586,9 @@ build_eda_plot <- function(df, plot_type, plot_x, plot_y, plot_color) {
   }
 
   if (plot_type == "Scatter plot") {
-    validate(need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
-    validate(need(!is.null(plot_y) && plot_y %in% names(df), "Choose a Y variable."))
-    validate(need(is.numeric(df[[plot_x]]) && is.numeric(df[[plot_y]]), "Scatter plot requires numeric X and Y variables."))
+    shiny::validate(shiny::need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
+    shiny::validate(shiny::need(!is.null(plot_y) && plot_y %in% names(df), "Choose a Y variable."))
+    shiny::validate(shiny::need(is.numeric(df[[plot_x]]) && is.numeric(df[[plot_y]]), "Scatter plot requires numeric X and Y variables."))
     if (use_color) {
       return(
         ggplot(df, aes(x = .data[[plot_x]], y = .data[[plot_y]], color = .data[[plot_color]])) +
@@ -604,9 +604,9 @@ build_eda_plot <- function(df, plot_type, plot_x, plot_y, plot_color) {
   }
 
   if (plot_type == "Box plot") {
-    validate(need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
-    validate(need(!is.null(plot_y) && plot_y %in% names(df), "Choose a Y variable."))
-    validate(need(is.numeric(df[[plot_y]]), "Box plot requires a numeric Y variable."))
+    shiny::validate(shiny::need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
+    shiny::validate(shiny::need(!is.null(plot_y) && plot_y %in% names(df), "Choose a Y variable."))
+    shiny::validate(shiny::need(is.numeric(df[[plot_y]]), "Box plot requires a numeric Y variable."))
     if (use_color) {
       return(
         ggplot(df, aes(x = .data[[plot_x]], y = .data[[plot_y]], fill = .data[[plot_color]])) +
@@ -622,7 +622,7 @@ build_eda_plot <- function(df, plot_type, plot_x, plot_y, plot_color) {
   }
 
   if (plot_type == "Bar chart") {
-    validate(need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
+    shiny::validate(shiny::need(!is.null(plot_x) && plot_x %in% names(df), "Choose an X variable."))
     if (use_color) {
       return(
         ggplot(df, aes(x = .data[[plot_x]], fill = .data[[plot_color]])) +
@@ -638,7 +638,7 @@ build_eda_plot <- function(df, plot_type, plot_x, plot_y, plot_color) {
   }
 
   numeric_df <- df[, vapply(df, is.numeric, logical(1)), drop = FALSE]
-  validate(need(ncol(numeric_df) >= 2, "Correlation heatmap needs at least two numeric columns."))
+  shiny::validate(shiny::need(ncol(numeric_df) >= 2, "Correlation heatmap needs at least two numeric columns."))
   corr <- stats::cor(numeric_df, use = "pairwise.complete.obs")
   corr_df <- as.data.frame(as.table(corr))
   ggplot(corr_df, aes(Var1, Var2, fill = Freq)) +

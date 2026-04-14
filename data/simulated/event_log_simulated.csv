@@ -1,0 +1,1480 @@
+session_id,variant,run_label,timestamp,event_name,event_value,tab_name,data_source
+20260413144331-NF8tkVm437,A,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144331-NF8tkVm437,A,pilot,2026/4/13 14:43,landing_view,variant=A,Guide,simulated
+20260413144331-NF8tkVm437,A,pilot,2026/4/13 14:43,session_end,duration_seconds=1.65,Guide,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,landing_view,variant=A,Guide,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,sample_data_clicked,iris,Data,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,feature_engineering_applied,sim_feature_A_2,Feature Engineering,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,eda_generated,Histogram,EDA,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144333-v7JD18FHY1,A,pilot,2026/4/13 14:43,session_end,duration_seconds=4.92,EDA,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,landing_view,variant=A,Guide,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,feature_engineering_applied,sim_feature_A_3,Feature Engineering,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,eda_generated,Histogram,EDA,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144338-CpXvSTH3w2,A,pilot,2026/4/13 14:43,session_end,duration_seconds=4.82,EDA,simulated
+20260413144343-mIlS7msNSj,A,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144343-mIlS7msNSj,A,pilot,2026/4/13 14:43,landing_view,variant=A,Guide,simulated
+20260413144343-mIlS7msNSj,A,pilot,2026/4/13 14:43,session_end,duration_seconds=2.17,Data,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,landing_view,variant=A,Guide,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,feature_engineering_applied,sim_feature_A_5,Feature Engineering,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,eda_generated,Histogram,EDA,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144346-xMZgRbkZCj,A,pilot,2026/4/13 14:43,session_end,duration_seconds=5.23,EDA,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,landing_view,variant=B,Guide,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,feature_engineering_applied,sim_feature_B_6,Feature Engineering,simulated
+20260413144351-wE7fuIWwdv,B,pilot,2026/4/13 14:43,session_end,duration_seconds=5.87,Feature Engineering,simulated
+20260413144358-Jj7Jno3XwO,B,pilot,2026/4/13 14:43,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413144358-Jj7Jno3XwO,B,pilot,2026/4/13 14:43,landing_view,variant=B,Guide,simulated
+20260413144358-Jj7Jno3XwO,B,pilot,2026/4/13 14:44,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144358-Jj7Jno3XwO,B,pilot,2026/4/13 14:44,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144358-Jj7Jno3XwO,B,pilot,2026/4/13 14:44,session_end,duration_seconds=2.84,Cleaning,simulated
+20260413144401-rDjCfZdpbe,B,pilot,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413144401-rDjCfZdpbe,B,pilot,2026/4/13 14:44,landing_view,variant=B,Guide,simulated
+20260413144401-rDjCfZdpbe,B,pilot,2026/4/13 14:44,session_end,duration_seconds=1.89,Guide,simulated
+20260413144403-DlsCq6eMvM,B,pilot,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413144403-DlsCq6eMvM,B,pilot,2026/4/13 14:44,landing_view,variant=B,Guide,simulated
+20260413144403-DlsCq6eMvM,B,pilot,2026/4/13 14:44,session_end,duration_seconds=1.99,Guide,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,landing_view,variant=B,Guide,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,sample_data_clicked,iris,Data,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,feature_engineering_applied,sim_feature_B_10,Feature Engineering,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,eda_generated,Histogram,EDA,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144406-nqfHhrUdzE,B,pilot,2026/4/13 14:44,session_end,duration_seconds=6.93,Data,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,sample_data_clicked,iris,Data,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,feature_engineering_applied,sim_feature_A_1,Feature Engineering,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,eda_generated,Histogram,EDA,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144428-jWbkp3ReG8,A,full,2026/4/13 14:44,session_end,duration_seconds=5.92,EDA,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,feature_engineering_applied,sim_feature_A_2,Feature Engineering,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,eda_generated,Histogram,EDA,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144434-vLieVrOV4S,A,full,2026/4/13 14:44,session_end,duration_seconds=6.43,Guide,simulated
+20260413144441-ylzIWmmKcx,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144441-ylzIWmmKcx,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144441-ylzIWmmKcx,A,full,2026/4/13 14:44,session_end,duration_seconds=1.79,Guide,simulated
+20260413144443-T3RCCKFVlN,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144443-T3RCCKFVlN,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144443-T3RCCKFVlN,A,full,2026/4/13 14:44,sample_data_clicked,iris,Data,simulated
+20260413144443-T3RCCKFVlN,A,full,2026/4/13 14:44,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144443-T3RCCKFVlN,A,full,2026/4/13 14:44,session_end,duration_seconds=3.42,Guide,simulated
+20260413144447-XghdPZqeHA,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144447-XghdPZqeHA,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144447-XghdPZqeHA,A,full,2026/4/13 14:44,session_end,duration_seconds=1.5,Guide,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,feature_engineering_applied,sim_feature_A_6,Feature Engineering,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,eda_generated,Histogram,EDA,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144449-0rtpT0XgkO,A,full,2026/4/13 14:44,session_end,duration_seconds=6.23,Guide,simulated
+20260413144456-9eDu4v6VQl,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144456-9eDu4v6VQl,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144456-9eDu4v6VQl,A,full,2026/4/13 14:44,session_end,duration_seconds=2.61,Feature Engineering,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:44,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:44,landing_view,variant=A,Guide,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:45,eda_generated,Histogram,EDA,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:45,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:45,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144459-bpaUP4doHQ,A,full,2026/4/13 14:45,session_end,duration_seconds=3.05,EDA,simulated
+20260413144502-dlNKgdB9HM,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144502-dlNKgdB9HM,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144502-dlNKgdB9HM,A,full,2026/4/13 14:45,session_end,duration_seconds=1.46,Guide,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,sample_data_clicked,iris,Data,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,feature_engineering_applied,sim_feature_A_10,Feature Engineering,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,eda_generated,Histogram,EDA,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144504-Pi5Jnycdbj,A,full,2026/4/13 14:45,session_end,duration_seconds=5.48,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,sample_data_clicked,iris,Data,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,feature_engineering_applied,sim_feature_A_11,Feature Engineering,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,eda_generated,Histogram,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,eda_generated,Scatter plot,EDA,simulated
+20260413144510-9fb8H7sfKf,A,full,2026/4/13 14:45,session_end,duration_seconds=8.06,EDA,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,feature_engineering_applied,sim_feature_A_12,Feature Engineering,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,eda_generated,Histogram,EDA,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144519-6uUVjKjzal,A,full,2026/4/13 14:45,session_end,duration_seconds=7.81,EDA,simulated
+20260413144527-dap5twXoW9,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144527-dap5twXoW9,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144527-dap5twXoW9,A,full,2026/4/13 14:45,session_end,duration_seconds=2.98,Data,simulated
+20260413144530-2WDXlw8aXk,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144530-2WDXlw8aXk,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144530-2WDXlw8aXk,A,full,2026/4/13 14:45,session_end,duration_seconds=2.27,Data,simulated
+20260413144533-UL7C0qYCXq,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144533-UL7C0qYCXq,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144533-UL7C0qYCXq,A,full,2026/4/13 14:45,session_end,duration_seconds=2.27,Data,simulated
+20260413144536-0QmGY1XDOl,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144536-0QmGY1XDOl,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144536-0QmGY1XDOl,A,full,2026/4/13 14:45,session_end,duration_seconds=1.65,Guide,simulated
+20260413144538-1LE2Bdlc8u,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144538-1LE2Bdlc8u,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144538-1LE2Bdlc8u,A,full,2026/4/13 14:45,session_end,duration_seconds=2.17,Data,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,feature_engineering_applied,sim_feature_A_18,Feature Engineering,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,eda_generated,Histogram,EDA,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144541-kzhcCFhNif,A,full,2026/4/13 14:45,session_end,duration_seconds=6.82,Guide,simulated
+20260413144548-I84ENC6ydV,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144548-I84ENC6ydV,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144548-I84ENC6ydV,A,full,2026/4/13 14:45,session_end,duration_seconds=2.21,Data,simulated
+20260413144550-Du2pgUyG4C,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144550-Du2pgUyG4C,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144550-Du2pgUyG4C,A,full,2026/4/13 14:45,session_end,duration_seconds=1.77,Guide,simulated
+20260413144553-v2f6klaKW9,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144553-v2f6klaKW9,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144553-v2f6klaKW9,A,full,2026/4/13 14:45,session_end,duration_seconds=1.62,Guide,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,sample_data_clicked,iris,Data,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144555-eLclwH1UiR,A,full,2026/4/13 14:45,session_end,duration_seconds=3.26,Cleaning,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:45,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:45,landing_view,variant=A,Guide,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:46,feature_engineering_applied,sim_feature_A_23,Feature Engineering,simulated
+20260413144558-1u36MWtoPN,A,full,2026/4/13 14:46,session_end,duration_seconds=5.79,Cleaning,simulated
+20260413144605-ayACCU7qmY,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144605-ayACCU7qmY,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144605-ayACCU7qmY,A,full,2026/4/13 14:46,session_end,duration_seconds=2.89,Data,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,eda_generated,Histogram,EDA,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144608-6Zbi4wQlS1,A,full,2026/4/13 14:46,session_end,duration_seconds=2.81,EDA,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,feature_engineering_applied,sim_feature_A_26,Feature Engineering,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,eda_generated,Histogram,EDA,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144611-18EEbG3qFA,A,full,2026/4/13 14:46,session_end,duration_seconds=5.4,EDA,simulated
+20260413144617-v5GcIyA7ZJ,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144617-v5GcIyA7ZJ,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144617-v5GcIyA7ZJ,A,full,2026/4/13 14:46,session_end,duration_seconds=2.17,Data,simulated
+20260413144619-HvvmcL8A72,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144619-HvvmcL8A72,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144619-HvvmcL8A72,A,full,2026/4/13 14:46,session_end,duration_seconds=1.89,Guide,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,sample_data_clicked,iris,Data,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,feature_engineering_applied,sim_feature_A_29,Feature Engineering,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,eda_generated,Histogram,EDA,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144622-Ec9uGmSmjK,A,full,2026/4/13 14:46,session_end,duration_seconds=5.45,EDA,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,feature_engineering_applied,sim_feature_A_30,Feature Engineering,simulated
+20260413144628-B8rkTz9vci,A,full,2026/4/13 14:46,session_end,duration_seconds=5.54,Feature Engineering,simulated
+20260413144634-lYzY4XXIkA,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144634-lYzY4XXIkA,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144634-lYzY4XXIkA,A,full,2026/4/13 14:46,session_end,duration_seconds=1.76,Guide,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,sample_data_clicked,iris,Data,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144636-I77Ccem0ic,A,full,2026/4/13 14:46,session_end,duration_seconds=2.88,Cleaning,simulated
+20260413144639-1xmBbhez9e,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144639-1xmBbhez9e,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144639-1xmBbhez9e,A,full,2026/4/13 14:46,session_end,duration_seconds=1.34,Guide,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144641-Bbnjo4tsgW,A,full,2026/4/13 14:46,session_end,duration_seconds=2.82,Cleaning,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,sample_data_clicked,iris,Data,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,feature_engineering_applied,sim_feature_A_35,Feature Engineering,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,eda_generated,Histogram,EDA,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144644-gNm6g37B8X,A,full,2026/4/13 14:46,session_end,duration_seconds=5.68,Feature Engineering,simulated
+20260413144650-tEhLftuh3P,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144650-tEhLftuh3P,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144650-tEhLftuh3P,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144650-tEhLftuh3P,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144650-tEhLftuh3P,A,full,2026/4/13 14:46,session_end,duration_seconds=2.64,Cleaning,simulated
+20260413144653-3BBNDlBrea,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144653-3BBNDlBrea,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144653-3BBNDlBrea,A,full,2026/4/13 14:46,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144653-3BBNDlBrea,A,full,2026/4/13 14:46,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144653-3BBNDlBrea,A,full,2026/4/13 14:46,session_end,duration_seconds=3.08,Cleaning,simulated
+20260413144657-PeaT5OxVgi,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144657-PeaT5OxVgi,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144657-PeaT5OxVgi,A,full,2026/4/13 14:46,session_end,duration_seconds=1.66,Guide,simulated
+20260413144659-fT5iVZZc0m,A,full,2026/4/13 14:46,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144659-fT5iVZZc0m,A,full,2026/4/13 14:46,landing_view,variant=A,Guide,simulated
+20260413144659-fT5iVZZc0m,A,full,2026/4/13 14:47,session_end,duration_seconds=1.25,Guide,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_40,Feature Engineering,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144700-3EE6qMY5l5,A,full,2026/4/13 14:47,session_end,duration_seconds=5.37,EDA,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_41,Feature Engineering,simulated
+20260413144706-Wfcpeihgqc,A,full,2026/4/13 14:47,session_end,duration_seconds=4.8,Feature Engineering,simulated
+20260413144711-nsyF74NKFK,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144711-nsyF74NKFK,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144711-nsyF74NKFK,A,full,2026/4/13 14:47,session_end,duration_seconds=1.49,Guide,simulated
+20260413144713-iieoOBItJp,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144713-iieoOBItJp,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144713-iieoOBItJp,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144713-iieoOBItJp,A,full,2026/4/13 14:47,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144713-iieoOBItJp,A,full,2026/4/13 14:47,session_end,duration_seconds=2.95,Feature Engineering,simulated
+20260413144717-oCWGCs2jmQ,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144717-oCWGCs2jmQ,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144717-oCWGCs2jmQ,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144717-oCWGCs2jmQ,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144717-oCWGCs2jmQ,A,full,2026/4/13 14:47,session_end,duration_seconds=2.27,Data,simulated
+20260413144719-uFLOLr8nBP,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144719-uFLOLr8nBP,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144719-uFLOLr8nBP,A,full,2026/4/13 14:47,session_end,duration_seconds=1.82,Guide,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144722-mfOtKgxROJ,A,full,2026/4/13 14:47,session_end,duration_seconds=3.03,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_47,Feature Engineering,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144725-FMujb333zl,A,full,2026/4/13 14:47,session_end,duration_seconds=5.42,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_48,Feature Engineering,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144731-pNn2CbSoqL,A,full,2026/4/13 14:47,session_end,duration_seconds=5.49,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_49,Feature Engineering,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144737-cZvA4yM0nM,A,full,2026/4/13 14:47,session_end,duration_seconds=6.67,Data,simulated
+20260413144744-adntUFCdk5,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144744-adntUFCdk5,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144744-adntUFCdk5,A,full,2026/4/13 14:47,session_end,duration_seconds=1.55,Guide,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_51,Feature Engineering,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,eda_generated,Histogram,EDA,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144746-OepEGciln0,A,full,2026/4/13 14:47,session_end,duration_seconds=5.48,EDA,simulated
+20260413144752-mXiGauZ4gD,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144752-mXiGauZ4gD,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144752-mXiGauZ4gD,A,full,2026/4/13 14:47,session_end,duration_seconds=1.35,Guide,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,landing_view,variant=A,Guide,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,sample_data_clicked,iris,Data,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,feature_engineering_applied,sim_feature_A_53,Feature Engineering,simulated
+20260413144754-LiyUmhx5tu,A,full,2026/4/13 14:47,session_end,duration_seconds=5.76,Cleaning,simulated
+20260413144800-OmsKtw9l35,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144800-OmsKtw9l35,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144800-OmsKtw9l35,A,full,2026/4/13 14:48,session_end,duration_seconds=1.44,Guide,simulated
+20260413144802-ICMiCnCZFn,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144802-ICMiCnCZFn,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144802-ICMiCnCZFn,A,full,2026/4/13 14:48,session_end,duration_seconds=2.53,Feature Engineering,simulated
+20260413144805-79zcBxiRmT,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144805-79zcBxiRmT,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144805-79zcBxiRmT,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144805-79zcBxiRmT,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144805-79zcBxiRmT,A,full,2026/4/13 14:48,session_end,duration_seconds=3.34,Cleaning,simulated
+20260413144808-UUQZGraDXc,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144808-UUQZGraDXc,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144808-UUQZGraDXc,A,full,2026/4/13 14:48,session_end,duration_seconds=2.65,Guide,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_58,Feature Engineering,simulated
+20260413144811-yxAejdLFRM,A,full,2026/4/13 14:48,session_end,duration_seconds=5.69,Data,simulated
+20260413144817-JXo1mT4BuW,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144817-JXo1mT4BuW,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144817-JXo1mT4BuW,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144817-JXo1mT4BuW,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144817-JXo1mT4BuW,A,full,2026/4/13 14:48,session_end,duration_seconds=2.65,Cleaning,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,sample_data_clicked,iris,Data,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_60,Feature Engineering,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,eda_generated,Histogram,EDA,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144821-saK7R3LNB3,A,full,2026/4/13 14:48,session_end,duration_seconds=6.93,Cleaning,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,sample_data_clicked,iris,Data,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_61,Feature Engineering,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,eda_generated,Histogram,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,eda_generated,Scatter plot,EDA,simulated
+20260413144828-nzFdxW6PWg,A,full,2026/4/13 14:48,session_end,duration_seconds=6.8,EDA,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144835-xyVEFwd2xY,A,full,2026/4/13 14:48,session_end,duration_seconds=3.02,Cleaning,simulated
+20260413144839-wurFAYTPuA,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144839-wurFAYTPuA,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144839-wurFAYTPuA,A,full,2026/4/13 14:48,session_end,duration_seconds=1.44,Guide,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,sample_data_clicked,iris,Data,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144840-4WRKohdNbd,A,full,2026/4/13 14:48,session_end,duration_seconds=2.92,Cleaning,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,sample_data_clicked,iris,Data,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_65,Feature Engineering,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,eda_generated,Histogram,EDA,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144844-7RkwqaakUX,A,full,2026/4/13 14:48,session_end,duration_seconds=5.53,EDA,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_66,Feature Engineering,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,eda_generated,Histogram,EDA,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144850-YuKDLWql7w,A,full,2026/4/13 14:48,session_end,duration_seconds=4.36,EDA,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,landing_view,variant=A,Guide,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,feature_engineering_applied,sim_feature_A_67,Feature Engineering,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,eda_generated,Histogram,EDA,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144854-Pelq7L9Erh,A,full,2026/4/13 14:48,session_end,duration_seconds=4.78,EDA,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144900-IhWA9W5V7c,A,full,2026/4/13 14:49,session_end,duration_seconds=2.58,Cleaning,simulated
+20260413144903-RVldW7Adz2,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144903-RVldW7Adz2,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144903-RVldW7Adz2,A,full,2026/4/13 14:49,session_end,duration_seconds=1.65,Guide,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_70,Feature Engineering,simulated
+20260413144904-TlRm9x9mwg,A,full,2026/4/13 14:49,session_end,duration_seconds=5.43,Guide,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144910-lVj1NAqEHz,A,full,2026/4/13 14:49,session_end,duration_seconds=1.84,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_72,Feature Engineering,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413144912-ZwXmoKR8oG,A,full,2026/4/13 14:49,session_end,duration_seconds=4.49,EDA,simulated
+20260413144917-qdY3rWUXIl,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144917-qdY3rWUXIl,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144917-qdY3rWUXIl,A,full,2026/4/13 14:49,session_end,duration_seconds=1.84,Guide,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144919-wLbiByJYKL,A,full,2026/4/13 14:49,session_end,duration_seconds=2.46,Cleaning,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144922-xKhZWy7op2,A,full,2026/4/13 14:49,session_end,duration_seconds=2.68,Cleaning,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_76,Feature Engineering,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144925-s3YjPEbmCV,A,full,2026/4/13 14:49,session_end,duration_seconds=5.52,Feature Engineering,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_77,Feature Engineering,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144931-1MFdJlBPZN,A,full,2026/4/13 14:49,session_end,duration_seconds=4.66,EDA,simulated
+20260413144936-wbevOCC8IL,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144936-wbevOCC8IL,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144936-wbevOCC8IL,A,full,2026/4/13 14:49,session_end,duration_seconds=1.23,Guide,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_79,Feature Engineering,simulated
+20260413144938-vB31hBMapg,A,full,2026/4/13 14:49,session_end,duration_seconds=4.25,Guide,simulated
+20260413144942-wbeioluYSc,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144942-wbeioluYSc,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144942-wbeioluYSc,A,full,2026/4/13 14:49,session_end,duration_seconds=1.57,Guide,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144944-qnFMcysxMG,A,full,2026/4/13 14:49,session_end,duration_seconds=2.35,EDA,simulated
+20260413144947-wJx9F1nmXe,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144947-wJx9F1nmXe,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144947-wJx9F1nmXe,A,full,2026/4/13 14:49,session_end,duration_seconds=1.49,Guide,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,sample_data_clicked,iris,Data,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144949-p4tfiL5wKO,A,full,2026/4/13 14:49,session_end,duration_seconds=2.48,Cleaning,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,first_key_action,cleaning_applied,Cleaning,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,feature_engineering_applied,sim_feature_A_84,Feature Engineering,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,eda_generated,Histogram,EDA,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413144951-fU5Zl7WfGR,A,full,2026/4/13 14:49,session_end,duration_seconds=4.69,EDA,simulated
+20260413144956-717pVWcm4k,A,full,2026/4/13 14:49,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413144956-717pVWcm4k,A,full,2026/4/13 14:49,landing_view,variant=A,Guide,simulated
+20260413144956-717pVWcm4k,A,full,2026/4/13 14:49,session_end,duration_seconds=2.92,Data,simulated
+20260413145000-0mE2qj1d4H,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145000-0mE2qj1d4H,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145000-0mE2qj1d4H,A,full,2026/4/13 14:50,session_end,duration_seconds=1.18,Guide,simulated
+20260413145001-LxFNKmVdIK,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145001-LxFNKmVdIK,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145001-LxFNKmVdIK,A,full,2026/4/13 14:50,session_end,duration_seconds=1.22,Guide,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,sample_data_clicked,iris,Data,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_88,Feature Engineering,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145003-vqqaKetcYj,A,full,2026/4/13 14:50,session_end,duration_seconds=4.79,EDA,simulated
+20260413145008-CY3lyj59RB,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145008-CY3lyj59RB,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145008-CY3lyj59RB,A,full,2026/4/13 14:50,session_end,duration_seconds=1.25,Guide,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,sample_data_clicked,iris,Data,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145009-uH97sH0v3d,A,full,2026/4/13 14:50,session_end,duration_seconds=2.78,Guide,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_91,Feature Engineering,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145012-A7gSTlXvSu,A,full,2026/4/13 14:50,session_end,duration_seconds=5.33,Data,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145018-G5f5wMPjfI,A,full,2026/4/13 14:50,session_end,duration_seconds=3.68,Guide,simulated
+20260413145022-wRqMnQyVpy,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145022-wRqMnQyVpy,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145022-wRqMnQyVpy,A,full,2026/4/13 14:50,session_end,duration_seconds=1.82,Data,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_94,Feature Engineering,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145024-R4To7Xv2Lt,A,full,2026/4/13 14:50,session_end,duration_seconds=4.71,EDA,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_95,Feature Engineering,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145029-KhX4Z2u4yG,A,full,2026/4/13 14:50,session_end,duration_seconds=5.18,Guide,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_96,Feature Engineering,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145035-Va6NwR0AO9,A,full,2026/4/13 14:50,session_end,duration_seconds=4.65,EDA,simulated
+20260413145040-rDiLnq0a0K,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145040-rDiLnq0a0K,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145040-rDiLnq0a0K,A,full,2026/4/13 14:50,session_end,duration_seconds=1.42,Guide,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_98,Feature Engineering,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145042-FD2flE08P8,A,full,2026/4/13 14:50,session_end,duration_seconds=4.66,EDA,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_A_99,Feature Engineering,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145047-rcL6Zl0AMv,A,full,2026/4/13 14:50,session_end,duration_seconds=4.67,Cleaning,simulated
+20260413145052-EMrNVRt7Vt,A,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=A,Guide,simulated
+20260413145052-EMrNVRt7Vt,A,full,2026/4/13 14:50,landing_view,variant=A,Guide,simulated
+20260413145052-EMrNVRt7Vt,A,full,2026/4/13 14:50,session_end,duration_seconds=1.26,Guide,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,landing_view,variant=B,Guide,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,feature_engineering_applied,sim_feature_B_101,Feature Engineering,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,eda_generated,Histogram,EDA,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145053-DuroUpMvQk,B,full,2026/4/13 14:50,session_end,duration_seconds=4.56,EDA,simulated
+20260413145058-0L9TGnaPSy,B,full,2026/4/13 14:50,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145058-0L9TGnaPSy,B,full,2026/4/13 14:50,landing_view,variant=B,Guide,simulated
+20260413145058-0L9TGnaPSy,B,full,2026/4/13 14:50,session_end,duration_seconds=1.26,Guide,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_103,Feature Engineering,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145100-f5gvax6gOb,B,full,2026/4/13 14:51,session_end,duration_seconds=4.47,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,sample_data_clicked,iris,Data,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_104,Feature Engineering,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145104-UcgI2o8RZE,B,full,2026/4/13 14:51,session_end,duration_seconds=4.76,EDA,simulated
+20260413145109-e6A7rSjo8m,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145109-e6A7rSjo8m,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145109-e6A7rSjo8m,B,full,2026/4/13 14:51,session_end,duration_seconds=1.38,Guide,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,sample_data_clicked,iris,Data,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_106,Feature Engineering,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145111-15dH3f0oHm,B,full,2026/4/13 14:51,session_end,duration_seconds=5.58,Guide,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_107,Feature Engineering,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145117-pDGLqNrmUx,B,full,2026/4/13 14:51,session_end,duration_seconds=4.55,EDA,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_108,Feature Engineering,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145122-1cmUmsoMxu,B,full,2026/4/13 14:51,session_end,duration_seconds=5.57,Cleaning,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,sample_data_clicked,iris,Data,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_109,Feature Engineering,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,eda_generated,Scatter plot,EDA,simulated
+20260413145128-VxPbYjq2Lr,B,full,2026/4/13 14:51,session_end,duration_seconds=6.08,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,sample_data_clicked,iris,Data,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_110,Feature Engineering,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145134-HhAHNWOmBi,B,full,2026/4/13 14:51,session_end,duration_seconds=4.59,EDA,simulated
+20260413145139-PiaeDlfRqI,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145139-PiaeDlfRqI,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145139-PiaeDlfRqI,B,full,2026/4/13 14:51,session_end,duration_seconds=1.28,Guide,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,sample_data_clicked,iris,Data,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_112,Feature Engineering,simulated
+20260413145141-qtMzgDdmt9,B,full,2026/4/13 14:51,session_end,duration_seconds=5.76,Feature Engineering,simulated
+20260413145147-CNXiC6pCLI,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145147-CNXiC6pCLI,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145147-CNXiC6pCLI,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145147-CNXiC6pCLI,B,full,2026/4/13 14:51,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145147-CNXiC6pCLI,B,full,2026/4/13 14:51,session_end,duration_seconds=3.12,Feature Engineering,simulated
+20260413145150-Bdf92lAxpW,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145150-Bdf92lAxpW,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145150-Bdf92lAxpW,B,full,2026/4/13 14:51,session_end,duration_seconds=3.7,Data,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,landing_view,variant=B,Guide,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,feature_engineering_applied,sim_feature_B_115,Feature Engineering,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,eda_generated,Histogram,EDA,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:51,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145154-1eGyIx6QSU,B,full,2026/4/13 14:52,session_end,duration_seconds=5.72,EDA,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_116,Feature Engineering,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145200-GSGvn5A8qK,B,full,2026/4/13 14:52,session_end,duration_seconds=4.54,EDA,simulated
+20260413145205-Q9VstBoP5U,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145205-Q9VstBoP5U,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145205-Q9VstBoP5U,B,full,2026/4/13 14:52,sample_data_clicked,iris,Data,simulated
+20260413145205-Q9VstBoP5U,B,full,2026/4/13 14:52,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145205-Q9VstBoP5U,B,full,2026/4/13 14:52,session_end,duration_seconds=1.73,Data,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_118,Feature Engineering,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145207-nGd1CLQkSg,B,full,2026/4/13 14:52,session_end,duration_seconds=5.79,Cleaning,simulated
+20260413145213-upD2B1Hq57,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145213-upD2B1Hq57,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145213-upD2B1Hq57,B,full,2026/4/13 14:52,session_end,duration_seconds=1.16,Guide,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_120,Feature Engineering,simulated
+20260413145215-0qNxh6B8D8,B,full,2026/4/13 14:52,session_end,duration_seconds=5.67,Cleaning,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145221-F6ZSuguu6i,B,full,2026/4/13 14:52,session_end,duration_seconds=2.53,Cleaning,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,sample_data_clicked,iris,Data,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145224-1xv453i4VU,B,full,2026/4/13 14:52,session_end,duration_seconds=2.58,Cleaning,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,sample_data_clicked,iris,Data,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145227-WUq3kGqXZl,B,full,2026/4/13 14:52,session_end,duration_seconds=2.45,Cleaning,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145229-lPgbluhja8,B,full,2026/4/13 14:52,session_end,duration_seconds=3.16,EDA,simulated
+20260413145233-prlKeFJpm5,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145233-prlKeFJpm5,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145233-prlKeFJpm5,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145233-prlKeFJpm5,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145233-prlKeFJpm5,B,full,2026/4/13 14:52,session_end,duration_seconds=2.79,Data,simulated
+20260413145236-Hu6StijBpb,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145236-Hu6StijBpb,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145236-Hu6StijBpb,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145236-Hu6StijBpb,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145236-Hu6StijBpb,B,full,2026/4/13 14:52,session_end,duration_seconds=3.03,Cleaning,simulated
+20260413145239-MPzx6vqcFV,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145239-MPzx6vqcFV,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145239-MPzx6vqcFV,B,full,2026/4/13 14:52,session_end,duration_seconds=1.66,Guide,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,sample_data_clicked,iris,Data,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_128,Feature Engineering,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145241-Zq0CAQtrWa,B,full,2026/4/13 14:52,session_end,duration_seconds=4.73,EDA,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_129,Feature Engineering,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145246-LYQn0UYpzu,B,full,2026/4/13 14:52,session_end,duration_seconds=4.56,Guide,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,feature_engineering_applied,sim_feature_B_130,Feature Engineering,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,eda_generated,Histogram,EDA,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145251-352a6dlEcQ,B,full,2026/4/13 14:52,session_end,duration_seconds=5.84,Feature Engineering,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:52,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:52,landing_view,variant=B,Guide,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_131,Feature Engineering,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145257-JBjWyA2c17,B,full,2026/4/13 14:53,session_end,duration_seconds=5.15,EDA,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_132,Feature Engineering,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145303-DeY3ANyc96,B,full,2026/4/13 14:53,session_end,duration_seconds=4.65,EDA,simulated
+20260413145308-gNedPSnSwV,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145308-gNedPSnSwV,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145308-gNedPSnSwV,B,full,2026/4/13 14:53,session_end,duration_seconds=1.64,Guide,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,sample_data_clicked,iris,Data,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_134,Feature Engineering,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145310-AF6cxj6CkG,B,full,2026/4/13 14:53,session_end,duration_seconds=5.93,Data,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_135,Feature Engineering,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145316-hvGLgDJmWR,B,full,2026/4/13 14:53,session_end,duration_seconds=4.45,EDA,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_136,Feature Engineering,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145321-KoPLB2lzjj,B,full,2026/4/13 14:53,session_end,duration_seconds=4.91,Guide,simulated
+20260413145326-bJqNrh7Awb,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145326-bJqNrh7Awb,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145326-bJqNrh7Awb,B,full,2026/4/13 14:53,session_end,duration_seconds=1.28,Guide,simulated
+20260413145328-jZywmedSNW,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145328-jZywmedSNW,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145328-jZywmedSNW,B,full,2026/4/13 14:53,session_end,duration_seconds=1.25,Guide,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_139,Feature Engineering,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145329-HUjIMI2Z14,B,full,2026/4/13 14:53,session_end,duration_seconds=4.4,EDA,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145334-dTnjCtiAjb,B,full,2026/4/13 14:53,session_end,duration_seconds=2.24,Cleaning,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_141,Feature Engineering,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145337-E1kMI2x8Va,B,full,2026/4/13 14:53,session_end,duration_seconds=6.85,EDA,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_142,Feature Engineering,simulated
+20260413145344-1JhkDMc49l,B,full,2026/4/13 14:53,session_end,duration_seconds=5.02,Cleaning,simulated
+20260413145349-jU1Em5sEo6,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145349-jU1Em5sEo6,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145349-jU1Em5sEo6,B,full,2026/4/13 14:53,sample_data_clicked,iris,Data,simulated
+20260413145349-jU1Em5sEo6,B,full,2026/4/13 14:53,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145349-jU1Em5sEo6,B,full,2026/4/13 14:53,session_end,duration_seconds=1.89,Data,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,feature_engineering_applied,sim_feature_B_144,Feature Engineering,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,eda_generated,Histogram,EDA,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145351-NuwoGR2vpZ,B,full,2026/4/13 14:53,session_end,duration_seconds=4.45,EDA,simulated
+20260413145356-yQPEzRSnpj,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145356-yQPEzRSnpj,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145356-yQPEzRSnpj,B,full,2026/4/13 14:53,session_end,duration_seconds=1.58,Guide,simulated
+20260413145358-w5G0vcBICe,B,full,2026/4/13 14:53,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145358-w5G0vcBICe,B,full,2026/4/13 14:53,landing_view,variant=B,Guide,simulated
+20260413145358-w5G0vcBICe,B,full,2026/4/13 14:54,session_end,duration_seconds=1.56,Guide,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_147,Feature Engineering,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145400-nvdh1TVukH,B,full,2026/4/13 14:54,session_end,duration_seconds=4.45,EDA,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_148,Feature Engineering,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145405-FTJZ94PdiG,B,full,2026/4/13 14:54,session_end,duration_seconds=4.45,EDA,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_149,Feature Engineering,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145410-zQGnJ3VXU7,B,full,2026/4/13 14:54,session_end,duration_seconds=5.68,Guide,simulated
+20260413145416-hTezYGISaE,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145416-hTezYGISaE,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145416-hTezYGISaE,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145416-hTezYGISaE,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145416-hTezYGISaE,B,full,2026/4/13 14:54,session_end,duration_seconds=1.63,Data,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145417-icgExwCuah,B,full,2026/4/13 14:54,session_end,duration_seconds=2.55,EDA,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,first_key_action,eda_generated:Histogram,EDA,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145420-sBwBMTBBqh,B,full,2026/4/13 14:54,session_end,duration_seconds=2.74,Feature Engineering,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_153,Feature Engineering,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145423-4Qpt1Xjrfx,B,full,2026/4/13 14:54,session_end,duration_seconds=4.48,EDA,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_154,Feature Engineering,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145428-0vIzil3Hgv,B,full,2026/4/13 14:54,session_end,duration_seconds=5.46,EDA,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145434-nblBfM8llo,B,full,2026/4/13 14:54,session_end,duration_seconds=2.92,EDA,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145437-iZZISpYAcT,B,full,2026/4/13 14:54,session_end,duration_seconds=3,Cleaning,simulated
+20260413145441-RIz8NUPNAq,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145441-RIz8NUPNAq,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145441-RIz8NUPNAq,B,full,2026/4/13 14:54,session_end,duration_seconds=1.65,Guide,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_158,Feature Engineering,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145443-U9y5qL0vrn,B,full,2026/4/13 14:54,session_end,duration_seconds=4.52,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,feature_engineering_applied,sim_feature_B_159,Feature Engineering,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,eda_generated,Histogram,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145447-jNBud8bYt6,B,full,2026/4/13 14:54,session_end,duration_seconds=4.69,EDA,simulated
+20260413145452-0zdd9A5x94,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145452-0zdd9A5x94,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145452-0zdd9A5x94,B,full,2026/4/13 14:54,session_end,duration_seconds=1.56,Data,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145454-ISq5KKavzF,B,full,2026/4/13 14:54,session_end,duration_seconds=2.44,Cleaning,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,landing_view,variant=B,Guide,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,sample_data_clicked,iris,Data,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145457-XPZk9oLJUB,B,full,2026/4/13 14:54,session_end,duration_seconds=2.45,Cleaning,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145500-u72wie2Qwk,B,full,2026/4/13 14:55,session_end,duration_seconds=2.38,Cleaning,simulated
+20260413145503-1H75a8r8ap,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145503-1H75a8r8ap,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145503-1H75a8r8ap,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145503-1H75a8r8ap,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145503-1H75a8r8ap,B,full,2026/4/13 14:55,session_end,duration_seconds=3.81,Data,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_165,Feature Engineering,simulated
+20260413145507-1ZNjHP7Jxp,B,full,2026/4/13 14:55,session_end,duration_seconds=4.4,Cleaning,simulated
+20260413145511-mqSIZkQJlQ,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145511-mqSIZkQJlQ,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145511-mqSIZkQJlQ,B,full,2026/4/13 14:55,session_end,duration_seconds=2.36,Data,simulated
+20260413145514-1UkjuDNok5,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145514-1UkjuDNok5,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145514-1UkjuDNok5,B,full,2026/4/13 14:55,session_end,duration_seconds=1.69,Guide,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145516-zDB26OuPYk,B,full,2026/4/13 14:55,session_end,duration_seconds=2.74,Cleaning,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_169,Feature Engineering,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145519-cblkVgyeTe,B,full,2026/4/13 14:55,session_end,duration_seconds=4.52,Guide,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_170,Feature Engineering,simulated
+20260413145524-Oua5pk9yzm,B,full,2026/4/13 14:55,session_end,duration_seconds=5.4,Feature Engineering,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_171,Feature Engineering,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145530-J9GBK0dj7v,B,full,2026/4/13 14:55,session_end,duration_seconds=6.01,Guide,simulated
+20260413145536-ofblSztTlu,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145536-ofblSztTlu,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145536-ofblSztTlu,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145536-ofblSztTlu,B,full,2026/4/13 14:55,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145536-ofblSztTlu,B,full,2026/4/13 14:55,session_end,duration_seconds=2.81,Data,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145539-fitgYxFkWG,B,full,2026/4/13 14:55,session_end,duration_seconds=2.83,Feature Engineering,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,sample_data_clicked,iris,Data,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_174,Feature Engineering,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145542-opqj8J22tG,B,full,2026/4/13 14:55,session_end,duration_seconds=5.74,Feature Engineering,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_175,Feature Engineering,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145548-9VaWOfVwUJ,B,full,2026/4/13 14:55,session_end,duration_seconds=4.52,EDA,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,feature_engineering_applied,sim_feature_B_176,Feature Engineering,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,eda_generated,Histogram,EDA,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145553-ewYYMubGE5,B,full,2026/4/13 14:55,session_end,duration_seconds=4.87,EDA,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:55,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:55,landing_view,variant=B,Guide,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_177,Feature Engineering,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145558-B57RkYkII6,B,full,2026/4/13 14:56,session_end,duration_seconds=4.38,EDA,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_178,Feature Engineering,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145603-mIrSmx5ReJ,B,full,2026/4/13 14:56,session_end,duration_seconds=6.41,Guide,simulated
+20260413145610-l8pvWPrnpS,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145610-l8pvWPrnpS,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145610-l8pvWPrnpS,B,full,2026/4/13 14:56,session_end,duration_seconds=2.38,Guide,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | Removed 0 duplicate rows.,Cleaning,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_180,Feature Engineering,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145613-wMHAMQaEv0,B,full,2026/4/13 14:56,session_end,duration_seconds=5.95,Cleaning,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_181,Feature Engineering,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145619-nWwC7CqzNU,B,full,2026/4/13 14:56,session_end,duration_seconds=4.81,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_182,Feature Engineering,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,eda_generated,plot_type=Scatter plot;plot_x=Sepal_Length;plot_y=Sepal_Width,EDA,simulated
+20260413145624-66qk5HKoT8,B,full,2026/4/13 14:56,session_end,duration_seconds=4.53,EDA,simulated
+20260413145629-B3fMuh3Ify,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145629-B3fMuh3Ify,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145629-B3fMuh3Ify,B,full,2026/4/13 14:56,session_end,duration_seconds=1.26,Guide,simulated
+20260413145631-ldx5DjhL47,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145631-ldx5DjhL47,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145631-ldx5DjhL47,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145631-ldx5DjhL47,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145631-ldx5DjhL47,B,full,2026/4/13 14:56,session_end,duration_seconds=2.93,Cleaning,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145634-kOaWiZq5CC,B,full,2026/4/13 14:56,session_end,duration_seconds=2.18,Cleaning,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145636-sZanN6D8Cj,B,full,2026/4/13 14:56,session_end,duration_seconds=3.18,Data,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,feature_engineering_applied,sim_feature_B_187,Feature Engineering,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145640-62azxrTLD1,B,full,2026/4/13 14:56,session_end,duration_seconds=4.51,EDA,simulated
+20260413145645-npkl0hGqdE,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145645-npkl0hGqdE,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145645-npkl0hGqdE,B,full,2026/4/13 14:56,session_end,duration_seconds=1.7,Guide,simulated
+20260413145647-BWRlEzWX1y,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145647-BWRlEzWX1y,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145647-BWRlEzWX1y,B,full,2026/4/13 14:56,session_end,duration_seconds=1.7,Guide,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,cleaning_applied,No cleaning transformation selected.,Cleaning,simulated
+20260413145649-jChxpfc2ma,B,full,2026/4/13 14:56,session_end,duration_seconds=2.25,Cleaning,simulated
+20260413145651-BYeYKxEOtV,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145651-BYeYKxEOtV,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145651-BYeYKxEOtV,B,full,2026/4/13 14:56,session_end,duration_seconds=1.41,Guide,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,cleaning_applied,Standardized column names. | Removed 1 duplicate rows.,Cleaning,simulated
+20260413145653-RyZuEXQkwf,B,full,2026/4/13 14:56,session_end,duration_seconds=2.43,Cleaning,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,sample_data_clicked,iris,Data,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,first_key_action,sample_data_clicked:iris,Data,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,eda_generated,plot_type=Histogram;plot_x=Sepal_Length;plot_y=Sepal_Length,EDA,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,eda_generated,Histogram,EDA,simulated
+20260413145656-IHTrUJSjGP,B,full,2026/4/13 14:56,session_end,duration_seconds=2.95,EDA,simulated
+20260413145659-n5oZebHhhJ,B,full,2026/4/13 14:56,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145659-n5oZebHhhJ,B,full,2026/4/13 14:56,landing_view,variant=B,Guide,simulated
+20260413145659-n5oZebHhhJ,B,full,2026/4/13 14:57,session_end,duration_seconds=1.42,Guide,simulated
+20260413145701-51RgYeHiaA,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145701-51RgYeHiaA,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145701-51RgYeHiaA,B,full,2026/4/13 14:57,session_end,duration_seconds=1.45,Guide,simulated
+20260413145703-zZJpOlGu3s,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145703-zZJpOlGu3s,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145703-zZJpOlGu3s,B,full,2026/4/13 14:57,session_end,duration_seconds=1.8,Guide,simulated
+20260413145705-vZbIdpqhdB,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145705-vZbIdpqhdB,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145705-vZbIdpqhdB,B,full,2026/4/13 14:57,session_end,duration_seconds=1.86,Guide,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,cleaning_applied,Standardized column names. | No date-like columns were detected.,Cleaning,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,feature_engineering_applied,sim_feature_B_198,Feature Engineering,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,eda_generated,Histogram,EDA,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,task_completed,dataset_loaded+cleaning+feature_engineering+eda,EDA,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,eda_generated,plot_type=Histogram;plot_x=Ozone;plot_y=Ozone,EDA,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,eda_generated,Histogram,EDA,simulated
+20260413145707-qx20BgahhF,B,full,2026/4/13 14:57,session_end,duration_seconds=6.49,EDA,simulated
+20260413145714-2aYIQml3bw,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145714-2aYIQml3bw,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145714-2aYIQml3bw,B,full,2026/4/13 14:57,cleaning_applied,Standardized column names.,Cleaning,simulated
+20260413145714-2aYIQml3bw,B,full,2026/4/13 14:57,first_key_action,cleaning_applied,Cleaning,simulated
+20260413145714-2aYIQml3bw,B,full,2026/4/13 14:57,session_end,duration_seconds=2.34,Guide,simulated
+20260413145716-AOVxDMXYTH,B,full,2026/4/13 14:57,session_start,assignment_mode=query_override;variant=B,Guide,simulated
+20260413145716-AOVxDMXYTH,B,full,2026/4/13 14:57,landing_view,variant=B,Guide,simulated
+20260413145716-AOVxDMXYTH,B,full,2026/4/13 14:57,session_end,duration_seconds=1.44,Guide,simulated
+20260413144426-LBNj2pcE45,B,bootstrap,2026/4/13 14:57,session_end,duration_seconds=771.92,Guide,simulated
