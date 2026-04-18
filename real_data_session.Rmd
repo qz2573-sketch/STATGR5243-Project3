@@ -1,0 +1,123 @@
+---
+title: "43 Project"
+author: "Shihang Qiu"
+date: "2026-02-18"
+output: html_document
+---
+
+
+```{r}
+real_data <- read.csv("C:/Users/eyuey/Desktop/课件/哥大/STAT5243GR/session_summary_combined_new.csv")
+```
+
+
+
+```{r}
+new_data <- subset(real_data, data_source == "real_imputed_users")
+new_data$run_label <- NULL
+```
+
+
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+first_key_rate_data <- new_data %>%
+  group_by(variant) %>%
+  summarise(
+    first_key_action_rate = mean(first_key_action_taken, na.rm = TRUE)
+  )
+
+ggplot(first_key_rate_data, aes(x = variant, y = first_key_action_rate, fill = variant)) +
+  geom_col(alpha = 0.7) +
+  geom_text(
+    aes(label = round(first_key_action_rate, 3)),
+    vjust = -0.3,
+    size = 5
+  ) +
+  scale_y_continuous(
+    labels = percent,
+    limits = c(0, max(first_key_rate_data$first_key_action_rate) + 0.1)
+  ) +
+  labs(
+    title = "First Key Action Rate by Variant",
+    x = "Variant",
+    y = "First Key Action Rate"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+
+```{r}
+ggplot(new_data, aes(x = variant, y = num_events, fill = variant)) +
+  geom_boxplot(alpha = 0.7) +
+  labs(
+    title = "Number of Events by Variant",
+    x = "Variant",
+    y = "Number of Events"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+
+
+```{r}
+# =========================
+# Prepare data
+# =========================
+df <- new_data[!is.na(new_data$variant), ]
+table(df$variant)
+
+# =========================
+# 1. Two-sample proportion test:
+#    first_key_action_taken
+# =========================
+tab_fka <- table(df$variant, df$first_key_action_taken)
+print(tab_fka)
+
+prop_test_fka <- prop.test(
+  x = tab_fka[, "1"],
+  n = rowSums(tab_fka),
+  correct = FALSE
+)
+
+print(prop_test_fka)
+
+# =========================
+# 2. Two-sample proportion test:
+#    task_completed
+# =========================
+tab_task <- table(df$variant, df$task_completed)
+print(tab_task)
+
+prop_test_task <- prop.test(
+  x = tab_task[, "1"],
+  n = rowSums(tab_task),
+  correct = FALSE
+)
+
+print(prop_test_task)
+
+# =========================
+# 3. Welch t-test:
+#    session_duration
+# =========================
+welch_session <- t.test(session_duration ~ variant, data = df)
+print(welch_session)
+
+# =========================
+# 4. Welch t-test:
+#    num_events
+# =========================
+welch_events <- t.test(num_events ~ variant, data = df)
+print(welch_events)
+```
+
+
+
+
