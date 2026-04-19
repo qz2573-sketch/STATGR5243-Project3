@@ -1,138 +1,155 @@
-# R Shiny A/B Testing Project
+# STATGR 5243 Project 3: DataPilot A/B Test
 
-## Project Overview
+This repository contains Team 24's Project 3 submission for STATGR 5243. The project designs, implements, and analyzes an A/B test using an R Shiny data analysis application called **DataPilot**.
 
-This project implements a simulated A/B testing workflow for an R Shiny data analysis application. The app supports the same core analysis workflow in both variants:
+The main question is:
 
-- data upload
-- data cleaning and transformation
-- feature engineering
-- exploratory data analysis
-- engineered dataset download
+> Does a guided, visually enhanced user interface increase user engagement and task completion compared with a simpler utility-first interface, when the underlying app functionality remains unchanged?
 
-The experiment compares two interface treatments:
+## Quick Links
 
-- **Variant A**: a simple, utility-first interface
-- **Variant B**: a guided, visually enhanced interface
+- Public deployed app: [https://statgr5243project.shinyapps.io/abtest-launcher/](https://statgr5243project.shinyapps.io/abtest-launcher/)
+- Force Variant A: [https://statgr5243project.shinyapps.io/abtest-launcher/?variant=A](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=A)
+- Force Variant B: [https://statgr5243project.shinyapps.io/abtest-launcher/?variant=B](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=B)
+- Main analysis output: `analysis_outputs/ab_test_results.md`
+- Summary results table: `analysis_outputs/ab_test_summary_table.csv`
+- Main analysis script: `analyze_ab_results.R`
 
-The backend workflow is shared across both variants. Only the presentation, onboarding, and interaction framing differ.
+## Project Summary
 
-## Public Shiny App
+DataPilot is a Shiny application that helps users complete a small data-analysis workflow:
 
-The deployed public A/B testing app is available at:
+- load a built-in dataset or upload a file
+- inspect dataset dimensions, missing values, column types, and preview rows
+- apply cleaning and transformation options
+- create engineered features
+- generate exploratory plots and summary statistics
+- download the engineered dataset
 
-- [https://statgr5243project.shinyapps.io/abtest-launcher/](https://statgr5243project.shinyapps.io/abtest-launcher/)
+The A/B test compares two versions of the same application:
 
-Debug override URLs:
+- **Variant A, control**: a compact, utility-first interface.
+- **Variant B, treatment**: a guided and visually enhanced interface with more onboarding, clearer visual hierarchy, and step-based framing.
 
-- [Variant A](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=A)
-- [Variant B](https://statgr5243project.shinyapps.io/abtest-launcher/?variant=B)
+The backend workflow is shared across both variants through `shared_logic.R`. This means that the treatment difference is focused on interface design, guidance, layout, and presentation rather than differences in data-processing functionality.
 
-## What This Experiment Includes
+## Experimental Design
 
-This repository contains four connected layers:
+The experiment uses a two-arm A/B testing design.
 
-1. **Application layer**
-   - two runnable Shiny interfaces built on the same analysis workflow
-2. **A/B testing layer**
-   - a single launcher app that randomly assigns each session to Variant A or Variant B
-   - optional URL override support using `?variant=A` or `?variant=B`
-   - a deployable `app.R` entry point for one public URL
-3. **Logging layer**
-   - separate simulated and real-user logging with a `data_source` label
-4. **Simulation and analysis layer**
-   - simulated user sessions driven through the real app
-   - session-level aggregation
-   - combined analysis-ready datasets for simulated and real-user traffic
-   - formal A/B analysis, plots, and report-ready outputs
+| Component | Description |
+| --- | --- |
+| Control group | Variant A, the simpler utility-first DataPilot interface |
+| Treatment group | Variant B, the guided and visually enhanced DataPilot interface |
+| Assignment mechanism | New sessions are assigned to A or B inside the Shiny launcher app |
+| Debug override | `?variant=A` and `?variant=B` can be used to force a variant for testing |
+| Primary outcome | `first_key_action_taken` |
+| Secondary outcomes | `task_completed`, `session_duration`, `num_events` |
+| Main inferential dataset | Full simulated run with 100 sessions per variant |
 
-## Repository Structure
+The primary metric, `first_key_action_taken`, measures whether a user takes an initial meaningful action, such as choosing a sample dataset or uploading data. This metric is used as the main engagement outcome because it captures whether the interface encourages users to begin using the app.
 
-### Core Shiny application files
+The secondary metrics measure deeper engagement:
 
-- `app.R`
-  - deployable public entry point for shinyapps.io
-- `app_variant_a.R`
-  - standalone entry point for Variant A
-- `app_variant_b.R`
-  - standalone entry point for Variant B
-- `app_abtest.R`
-  - main A/B launcher app with session-level random assignment and optional URL override
-- `shared_logic.R`
-  - shared server-side workflow for data loading, cleaning, feature engineering, and EDA
-- `ui_variant_a.R`
-  - UI definition for Variant A
-- `ui_variant_b.R`
-  - UI definition for Variant B
-- `utils_logging.R`
-  - event logging helpers, session metadata helpers, path management, and data layout migration utilities
+- `task_completed`: whether the session reached the intended workflow completion point
+- `session_duration`: how long the session lasted
+- `num_events`: how many tracked interaction events were recorded
 
-### Simulation and preprocessing files
+## Repository Map
 
-- `simulate_sessions.R`
-  - runs simulated user sessions against the real Shiny app with `shinytest2`
-- `analyze_simulation_prep.R`
-  - converts simulated raw event logs into session-level summary rows
-- `merge_analysis_data.R`
-  - combines simulated and real-user session summaries into one analysis-ready dataset
-- `prepare_ga4_export.R`
-  - converts exported GA4 `session_summary` events into the same session-level schema used by the simulation pipeline
-- `deploy_shinyapps.R`
-  - deploys the public `app.R` entry point to shinyapps.io
+### Shiny Application Files
 
-### Final analysis files
+| File | Purpose |
+| --- | --- |
+| `app.R` | Deployable public entry point for shinyapps.io |
+| `app_abtest.R` | Main A/B launcher with random assignment and URL override support |
+| `app_variant_a.R` | Standalone entry point for Variant A |
+| `app_variant_b.R` | Standalone entry point for Variant B |
+| `ui_variant_a.R` | UI definition for Variant A |
+| `ui_variant_b.R` | UI definition for Variant B |
+| `shared_logic.R` | Shared backend app logic for data loading, cleaning, feature engineering, and EDA |
+| `utils_logging.R` | Event logging, session metadata, GA4 helpers, and data-path utilities |
 
-- `analyze_ab_results.R`
-  - performs the final A/B analysis using the session-level dataset
+### Simulation, Data Preparation, and Analysis Files
 
-### Data files
+| File | Purpose |
+| --- | --- |
+| `simulate_sessions.R` | Runs simulated user sessions through the Shiny app with `shinytest2` |
+| `analyze_simulation_prep.R` | Converts raw simulated event logs into session-level summaries |
+| `merge_analysis_data.R` | Combines simulated and real-user session summaries into one analysis-ready file |
+| `prepare_ga4_export.R` | Converts exported GA4 event data into the same session-level schema |
+| `analyze_ab_results.R` | Runs the final A/B analysis and writes tables, plots, and report text |
+| `deploy_shinyapps.R` | Deploys the public app to shinyapps.io |
+| `real_data_session.Rmd` | Supplementary notebook for real-user/bridge data exploration |
 
-- `data/event_log.csv`
-  - legacy simulated event log preserved from the original local-only project
-- `data/session_summary.csv`
-  - legacy simulated session summary preserved from the original local-only project
-- `data/simulation_manifest.csv`
-  - legacy simulated manifest preserved from the original local-only project
-- `data/simulated/event_log_simulated.csv`
-  - canonical simulated event log used going forward
-- `data/simulated/session_summary_simulated.csv`
-  - canonical simulated session-level dataset
-- `data/simulated/simulation_manifest_simulated.csv`
-  - canonical simulated manifest with persona metadata
-- `data/real/event_log_real.csv`
-  - deployed real-user event log
-- `data/real/session_summary_real.csv`
-  - deployed real-user session summary dataset
-- `data/analysis/session_summary_combined.csv`
-  - merge-ready combined dataset retaining the `data_source` label
+### Data Directories
 
-### Analysis outputs
+| Path | Description |
+| --- | --- |
+| `data/` | Legacy local simulated files from the earlier project structure |
+| `data/simulated/` | Canonical simulated event logs, session summaries, and simulation manifest |
+| `data/real/` | Real-user event/session files from deployed or GA4-based collection |
+| `data/analysis/` | Combined analysis-ready session-level dataset |
+| `analysis_outputs/` | Final tables, plots, and report-ready text outputs |
 
-- `analysis_outputs/ab_test_summary_table.csv`
-  - summary table of outcome metrics and p-values
-- `analysis_outputs/ab_test_persona_breakdown.csv`
-  - exploratory breakdown by persona and variant
-- `analysis_outputs/ab_test_results.md`
-  - concise report-ready Results, Interpretation, and Limitations text
-- `analysis_outputs/first_key_action_taken_by_variant.png`
-- `analysis_outputs/task_completed_by_variant.png`
-- `analysis_outputs/session_duration_by_variant.png`
-- `analysis_outputs/num_events_by_variant.png`
+## Important Data Files
+
+| File | Description |
+| --- | --- |
+| `data/simulated/event_log_simulated.csv` | Raw event-level log from simulated sessions |
+| `data/simulated/session_summary_simulated.csv` | Simulated session-level summary dataset |
+| `data/simulated/simulation_manifest_simulated.csv` | Session manifest with variant, persona, run label, and planned dataset |
+| `data/real/event_log_real.csv` | Real-user event log file |
+| `data/real/session_summary_real.csv` | Real-user session summary file |
+| `data/analysis/session_summary_combined.csv` | Combined session-level dataset created by `merge_analysis_data.R` |
+| `analysis_outputs/session_summary_combined.csv` | Supplementary combined output used for report-facing analysis artifacts |
+| `analysis_outputs/ab_test_summary_table.csv` | Final statistical test summary table |
+| `analysis_outputs/ab_test_persona_breakdown.csv` | Exploratory results by simulated persona and variant |
+| `analysis_outputs/ab_test_results.md` | Short report-ready results and interpretation text |
+
+## Analysis Outputs
+
+The main analysis script produces the following output files in `analysis_outputs/`:
+
+- `ab_test_summary_table.csv`
+- `ab_test_persona_breakdown.csv`
+- `ab_test_results.md`
+- `first_key_action_taken_by_variant.png`
+- `task_completed_by_variant.png`
+- `session_duration_by_variant.png`
+- `num_events_by_variant.png`
+
+These files are intended to support the final written report.
 
 ## Required R Packages
 
-Install the required packages once if needed:
+Install the required packages once before running the app or analysis:
 
 ```r
-install.packages(c("shiny", "bslib", "ggplot2", "dplyr", "readxl", "jsonlite", "shinytest2", "rsconnect"))
+install.packages(c(
+  "shiny",
+  "bslib",
+  "ggplot2",
+  "dplyr",
+  "readxl",
+  "jsonlite",
+  "shinytest2",
+  "rsconnect"
+))
 ```
 
-## How to Run the App Locally
+## How To Run The App Locally
 
-### Run the main A/B launcher
+The commands below use `Rscript`. On Windows, replace `Rscript` with the full Rscript path if needed, for example:
 
 ```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" -e "shiny::runApp('app_abtest.R', port = 3840, launch.browser = TRUE)"
+"C:\Program Files\R\R-4.5.2\bin\Rscript.exe"
+```
+
+### Run The Main A/B Launcher
+
+```bash
+Rscript -e "shiny::runApp('app_abtest.R', port = 3840, launch.browser = TRUE)"
 ```
 
 Open:
@@ -144,40 +161,48 @@ Manual override URLs:
 - <http://127.0.0.1:3840/?variant=A>
 - <http://127.0.0.1:3840/?variant=B>
 
-### Run Variant A directly
+### Run Variant A Directly
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" -e "shiny::runApp('app_variant_a.R', port = 3838, launch.browser = TRUE)"
+```bash
+Rscript -e "shiny::runApp('app_variant_a.R', port = 3838, launch.browser = TRUE)"
 ```
 
 Open:
 
 - <http://127.0.0.1:3838>
 
-### Run Variant B directly
+### Run Variant B Directly
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" -e "shiny::runApp('app_variant_b.R', port = 3839, launch.browser = TRUE)"
+```bash
+Rscript -e "shiny::runApp('app_variant_b.R', port = 3839, launch.browser = TRUE)"
 ```
 
 Open:
 
 - <http://127.0.0.1:3839>
 
-## How the A/B Experiment Works
+## How The A/B Test Works In The Code
 
-- each new session is assigned to Variant A or Variant B
-- the assignment is stored in `session$userData$variant`
-- each session receives a `session_id` and `start_time`
-- simulated events are written to `data/simulated/event_log_simulated.csv`
-- deployed real-user events are written to `data/real/event_log_real.csv`
-- each event row includes `data_source` so simulated and real traffic stay distinguishable
-- URL overrides make it possible to force a specific variant for debugging or demonstration
+The single public launcher is implemented in `app_abtest.R`.
 
-The logging pipeline records key events such as:
+At the beginning of each session:
+
+- the app checks whether the URL contains a variant override
+- if the URL contains `?variant=A` or `?variant=B`, that variant is assigned
+- otherwise, the app randomly samples Variant A or Variant B
+- the assigned variant is stored in `session$userData$variant`
+- the session receives a generated `session_id`
+- the selected UI is rendered through `uiOutput("assigned_ui")`
+
+The backend behavior then comes from `shared_logic.R`, so Variant A and Variant B use the same data-processing and plotting logic.
+
+## Logging And Metrics
+
+The logging system records event-level data during each session. Important tracked events include:
 
 - `session_start`
 - `landing_view`
+- `tab_view`
 - `sample_data_clicked`
 - `upload_clicked`
 - `first_key_action`
@@ -187,7 +212,7 @@ The logging pipeline records key events such as:
 - `task_completed`
 - `session_end`
 
-Each event row includes:
+Each event row contains:
 
 - `session_id`
 - `variant`
@@ -198,95 +223,80 @@ Each event row includes:
 - `tab_name`
 - `data_source`
 
-## How to Run the Simulation Locally
+The session-level analysis file uses these fields:
 
-### Pilot simulation
+- `session_id`
+- `variant`
+- `persona`
+- `run_label`
+- `data_source`
+- `first_key_action_taken`
+- `task_completed`
+- `session_duration`
+- `num_events`
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" simulate_sessions.R --pilot --reset
+## How To Reproduce The Simulated Analysis
+
+The final simulated analysis is based on a full run with 100 sessions per variant.
+
+### 1. Run A Small Pilot Simulation
+
+This is useful for checking that the app and logging pipeline work:
+
+```bash
+Rscript simulate_sessions.R --pilot --reset
 ```
 
-### Full simulation
+### 2. Run The Full Simulation
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" simulate_sessions.R --full
+```bash
+Rscript simulate_sessions.R --full
 ```
 
-### Rebuild the session summary dataset
+### 3. Rebuild The Simulated Session Summary
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" analyze_simulation_prep.R
+```bash
+Rscript analyze_simulation_prep.R
 ```
 
-### Build the combined analysis-ready dataset
+### 4. Build The Combined Analysis Dataset
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" merge_analysis_data.R
+```bash
+Rscript merge_analysis_data.R
 ```
 
-## How to Run the Final Analysis
+### 5. Run The Final A/B Analysis
 
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" analyze_ab_results.R
+```bash
+Rscript analyze_ab_results.R
 ```
 
 The final analysis script:
 
 - loads the combined session summary dataset
-- filters to `data_source == "simulated"` for the original simulation-based analysis
+- filters to `data_source == "simulated"`
 - filters to `run_label == "full"`
-- compares Variant A and Variant B on:
-  - `first_key_action_taken`
-  - `task_completed`
-  - `session_duration`
-  - `num_events`
-- uses:
-  - two-sample proportion tests for binary outcomes
-  - Welch t-tests for continuous outcomes
-- generates tables, figures, and report-ready text files in `analysis_outputs/`
+- compares Variant A and Variant B on the four defined outcome metrics
+- uses two-sample proportion tests for binary outcomes
+- uses Welch t-tests for continuous outcomes
+- writes result tables, figures, and short report text to `analysis_outputs/`
 
-## Notes on Interpretation
+## Main Simulated Results
 
-This project now supports both simulated and real-user traffic. The existing report outputs are still based on the simulated `full` run by default. Real-user rows remain separate through `data_source = "real_user"` and can be analyzed independently, compared side by side, or pooled later through `data/analysis/session_summary_combined.csv`.
+The main simulated full-run results are stored in `analysis_outputs/ab_test_summary_table.csv`.
 
-## Deployment To shinyapps.io
+| Metric | Test | Variant A | Variant B | Difference B - A | p-value |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `first_key_action_taken` | Two-sample proportion test | 0.61 | 0.75 | 0.14 | 0.0338 |
+| `task_completed` | Two-sample proportion test | 0.31 | 0.41 | 0.10 | 0.1407 |
+| `session_duration` | Welch t-test | 3.4609 | 3.5236 | 0.0627 | 0.7967 |
+| `num_events` | Welch t-test | 6.59 | 7.49 | 0.90 | 0.0764 |
 
-The deployable public app is `app.R`. It keeps a single public entry URL and performs variant assignment inside the app at session start.
+In the simulated full run, Variant B has a higher value than Variant A for all four metrics. The first key action rate is statistically significant at the 5% level, while the other metrics are directionally positive but not statistically significant at the 5% level.
 
-### One-time account setup
+## Google Analytics And Real-User Data
 
-In an interactive R session, configure your shinyapps.io account once:
-
-```r
-rsconnect::setAccountInfo(
-  name = "<your-account-name>",
-  token = "<your-token>",
-  secret = "<your-secret>"
-)
-```
-
-### Deploy the public A/B app
-
-```powershell
-$env:SHINYAPPS_ACCOUNT = "<your-account-name>"
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" deploy_shinyapps.R --app-name=abtest-launcher
-```
-
-Current deployed URL:
-
-- [https://statgr5243project.shinyapps.io/abtest-launcher/](https://statgr5243project.shinyapps.io/abtest-launcher/)
-
-The deployed app:
-
-- exposes one public URL
-- randomly assigns each new session to Variant A or Variant B
-- still supports `?variant=A` or `?variant=B` for debugging
-- logs deployed traffic to `data/real/`
-- sends additional GA4 events when `GA4_MEASUREMENT_ID` is set during deployment
-
-## Google Analytics (GA4)
-
-The app can send additional engagement events to Google Analytics 4 when a GA4 measurement ID is configured. This project currently defaults to `G-5XYRDJLPHH`, and local overrides can still be provided through the `GA4_MEASUREMENT_ID` environment variable.
+The deployed app can also send engagement events to Google Analytics 4 when a GA4 measurement ID is configured. The current code defaults to the measurement ID defined in `utils_logging.R`, and it can also be overridden locally with the `GA4_MEASUREMENT_ID` environment variable.
 
 Tracked GA4 events include:
 
@@ -304,7 +314,7 @@ Tracked GA4 events include:
 - `session_summary`
 - `session_end`
 
-Each GA4 event also carries app-side parameters when available:
+Each GA4 event may include app-side parameters such as:
 
 - `session_id`
 - `variant`
@@ -319,61 +329,69 @@ Each GA4 event also carries app-side parameters when available:
 - `first_key_action_taken`
 - `task_completed`
 
-If you want these fields to appear in standard GA4 reports, create matching custom dimensions in the GA4 property.
+To convert an exported GA4 event file into the same session-level format used by the simulation pipeline, run:
 
-Recommended custom dimensions for A/B analysis alignment:
-
-- `variant`
-- `tab_name`
-- `run_label`
-- `data_source`
-- `persona`
-- `assignment_mode`
-- `virtual_page`
-
-Recommended custom metrics or exported event parameters:
-
-- `session_duration`
-- `num_events`
-- `event_count`
-- `first_key_action_taken`
-- `task_completed`
-
-To align GA4 exports with the simulation-ready schema, export GA4 events including `session_summary` and run:
-
-```powershell
-"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" prepare_ga4_export.R --input=data/real/ga4_events_export.csv --output=data/real/session_summary_real_ga4.csv
+```bash
+Rscript prepare_ga4_export.R --input=data/real/ga4_events_export.csv --output=data/real/session_summary_real_ga4.csv
 ```
 
-The resulting `session_summary_real_ga4.csv` uses the same columns as the local combined analysis pipeline:
+The resulting file uses the same columns as the combined analysis dataset, which makes simulated and real-user rows easier to compare or merge.
 
-- `session_id`
-- `variant`
-- `persona`
-- `run_label`
-- `data_source`
-- `first_key_action_taken`
-- `task_completed`
-- `session_duration`
-- `num_events`
+## Deployment To shinyapps.io
 
-## Storage Strategy
+The deployed app uses `app.R` as the public entry point. It keeps one public URL and performs variant assignment inside the app.
 
-- simulated legacy files are preserved in `data/`
-- canonical simulated outputs live in `data/simulated/`
-- canonical deployed real-user outputs live in `data/real/`
-- merge-ready analysis outputs live in `data/analysis/`
+### One-Time Account Setup
 
-## Merge-Ready Analysis Format
+In an interactive R session:
 
-`merge_analysis_data.R` produces one combined session-level dataset with:
+```r
+rsconnect::setAccountInfo(
+  name = "<your-account-name>",
+  token = "<your-token>",
+  secret = "<your-secret>"
+)
+```
 
-- `session_id`
-- `variant`
-- `persona` (`NA` for real users)
-- `run_label`
-- `data_source`
-- `first_key_action_taken`
-- `task_completed`
-- `session_duration`
-- `num_events`
+### Deploy The Public A/B App
+
+```bash
+Rscript deploy_shinyapps.R --app-name=abtest-launcher
+```
+
+On Windows PowerShell, if the deployment account needs to be set first:
+
+```powershell
+$env:SHINYAPPS_ACCOUNT = "<your-account-name>"
+"C:\Program Files\R\R-4.5.2\bin\Rscript.exe" deploy_shinyapps.R --app-name=abtest-launcher
+```
+
+The deployed app:
+
+- exposes one public URL
+- randomly assigns each new session to Variant A or Variant B
+- supports `?variant=A` and `?variant=B` for debugging
+- logs deployed traffic to `data/real/`
+- sends additional GA4 events when configured
+
+## Suggested Reading Order For Evaluation
+
+For a quick review of the project, we suggest reading files in this order:
+
+1. `5243 Project 3 Team 24.docx`
+2. `README.md`
+3. `app_abtest.R`
+4. `ui_variant_a.R` and `ui_variant_b.R`
+5. `shared_logic.R`
+6. `simulate_sessions.R`
+7. `analyze_ab_results.R`
+8. `analysis_outputs/ab_test_summary_table.csv`
+9. `analysis_outputs/ab_test_results.md`
+
+This order follows the project logic: report, experiment setup, app implementation, simulation process, and statistical results.
+
+## Notes On Interpretation
+
+This repository supports both simulated and real-user traffic. The main reproducible analysis output generated by `analyze_ab_results.R` uses the simulated full run by default. Real-user rows are kept separate through the `data_source` field so that they can be analyzed independently, compared side by side, or pooled in a later supplementary analysis.
+
+The simulated sessions are useful because they create a controlled and balanced experimental setting. However, simulated sessions should be interpreted as controlled evidence about the designed interaction process, not as a complete substitute for observed human behavior.
